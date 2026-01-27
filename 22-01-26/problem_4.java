@@ -14,10 +14,10 @@ public class problem_4 {
 
         public static void isPassed(int marks){
             if(marks >= 40){
-                System.out.println("Passed");
+                System.out.print(" Passed");
             }
             else{
-                System.out.println("Failed");
+                System.out.print(" Failed");
             }
         }
 
@@ -37,7 +37,9 @@ public class problem_4 {
         int marks=sc.nextInt();
         String name= sc.next();
         Student stu=new Student(id, marks, name );
+        System.out.print( name +" is:");
         stu.isPassed(marks);
+        
 
     }
 }

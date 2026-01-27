@@ -25,7 +25,7 @@ public class problem_3 {
             case 1:
                 int a=sc.nextInt();
                 int b=sc.nextInt();
-                System.out.println("Sum: "+add(a,b));
+                System.out.println("Sum of "+a+b+"is: "+add(a,b));
                 break;
             case 2:
                 int num1=sc.nextInt();
@@ -36,7 +36,7 @@ public class problem_3 {
                 break;
             case 3:
                 int num2=sc.nextInt();
-                System.out.println("Factorial of n is "+ factorial(num2));
+                System.out.println("Factorial of "+num2+" is: "+ factorial(num2));
         }
         
     }

@@ -14,7 +14,7 @@ class problem_5{
         int id2 = sc.nextInt();
         String name2 = sc.next();
         int monthlySalary2 = sc.nextInt();
-
+        System.out.println();
         Employee em1 = new Employee(id1, name1, monthlySalary1);
         Employee em2 = new Employee(id2, name2, monthlySalary2);
 
@@ -54,10 +54,13 @@ class Employee {
     }
 
     public static void displayEmployeeDetails(int id, String name, int monthlySalary) {
+        System.out.println("Employee Details are:");
         System.out.println("ID: " + id);
         System.out.println("Name: " + name);
         System.out.println("Monthly Salary: " + monthlySalary);
         System.out.println("Company Name: "+companyName);
+        System.out.println("Annual Salary: "+ calculateAnnualSalary(monthlySalary));
+        System.out.println();
     }
 
 }
