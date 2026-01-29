@@ -1,0 +1,9 @@
+1,Ram,22
+3,Raju,22
+4,Harati,21
+7,Renny,21
+8,Renny,45
+9,Ren,30
+60,vaishu,18
+5,vanshu,23
+6,80,48

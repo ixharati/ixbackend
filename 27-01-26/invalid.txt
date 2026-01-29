@@ -1,0 +1,8 @@
+2, Ravi,17 - age is invalid
+x, John,25 - numeric value is invalid
+4,Harati,30 - ID is duplicate
+6,Sonu,17 - age is invalid
+10,x,64 - age is invalid
+11,F,80 - age is invalid
+60,mamatha,90 - age is invalid
+5,k,0 - age is invalid

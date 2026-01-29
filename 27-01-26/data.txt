@@ -1,0 +1,17 @@
+1, Ram ,22
+2, Ravi,17
+3, Raju ,22
+x, John,25
+4,Harati,21
+4,Harati,30
+6,Sonu,17
+7,Renny,21
+8,Renny,45
+9,Ren,30
+10,x,64
+11,F,80
+60,mamatha,90
+5,k,0
+60,vaishu,18
+5,vanshu,23
+6,80,48
