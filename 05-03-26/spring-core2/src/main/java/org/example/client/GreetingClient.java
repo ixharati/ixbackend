@@ -12,4 +12,5 @@ public class GreetingClient {
     public void sayHello(){
         greetingService.greet();
     }
+    
 }

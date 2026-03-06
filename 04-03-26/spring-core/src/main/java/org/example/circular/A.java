@@ -7,7 +7,7 @@ public class A{
         System.out.println("A is created");
     }
     @Autowired
-    public void setB(B a){
+    public void setB(B b){
         System.out.println("B injected into A");
         this.b =b;
     }

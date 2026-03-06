@@ -45,7 +45,7 @@ public class problem_5{
                         throw new IllegalArgumentException("ID is duplicate");
                     }
                     Valid.add(id + "," + name + "," + age);
-                } catch (NumberFormatException e) {
+                } catch (NumberFormatException e){
                     Invalid.add(record + " - numeric value is invalid");
                     logger.warning("Invalid no in record: " + record);
                 } catch (InvalidAgeException | IllegalArgumentException e) {
